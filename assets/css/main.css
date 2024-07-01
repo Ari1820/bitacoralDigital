@@ -1738,3 +1738,13 @@ body.is-article-visible #footer {
 body.is-preload #footer {
 	opacity: 0;
 }
+.button-container {
+	display: flex;
+	justify-content: center;
+	gap: 10px; /* Espacio entre botones, ajusta según sea necesario */
+  }
+  
+  .button-container button {
+	margin: 0 5px; /* Margen opcional para más espacio entre botones */
+  }
+  
